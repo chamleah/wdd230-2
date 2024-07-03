@@ -1,0 +1,40 @@
+# What is humans.txt? It's a TXT file that contains information about the different people who have contributed to building this website.
+# This helps for questions about the functionality and future development.
+# For more information on this file visit humanstxt.org
+
+# The humans responsible & technology colophon
+==============================================
+
+# TEAM
+
+    WDD-230-A9
+    	Name:  Vern Wolfley
+    	Role: Student Developer
+        @wolfleyvern
+
+
+# THANKS
+
+Hunsaker, Braden
+Livia Costa Lira de Medeiros
+Rafael Batista
+Rebeca Lopez Alvarez
+Samanta Baez Gomez
+
+
+# TECHNOLOGY COLOPHON
+
+    Standards: JavaScript, HTML5, CSS3
+    Components: 
+
+# SITE
+
+    Site Name: Scoots - WDD230
+    Site URL: https://vwolfley.github.io/wdd230/scoots/
+    Version: 1.0.0
+	Last updated: 2023-12-06
+    Creation date: 2024-03-24
+	Language: English
+	Doctype: HTML5
+	IDE: VS Code
+    License: MIT

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Leah Chamberlain - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal for Leah Chamberlain" />
+        <meta name="author" content="Leah Chamberlain" />
+        <meta name="copyright" content="Copyright 2024" />
+        <meta name="theme-color" content="#006EB6" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://github.com/chamleah/wdd230-2.git" />
+        <meta property="og:title" content="Leah Chamberlain - WDD 230 - Web Frontend Development" />
+        <meta property="og:description" content="WDD 230 - Web Frontend Development course assignment portal for Leah Chamberlain" />
+        <meta property="og:image:type" content="image/png" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:title" content="Leah Chamberlain - WDD 230 - Web Frontend Development" />
+        <meta name="twitter:description" content="WDD 230 - Web Frontend Development course assignment portal for Leah Chamberlain" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <!-- specific icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.webp" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.webp" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.webp" />
+        <link rel="manifest" href="site.webmanifest" />
+
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/larger.css" />
+    </head>
+    <body>
+        <header>
+            <div id="headTitle">
+                <img id="profile-img" src="images/profile-leah.webp" alt="my profile" />
+                <h1>Leah Chamberlain</h1>
+                <div id="menu"></div>
+            </div>
+
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" title="home page link" class="active">Home</a></li>
+                    <li><a href="lesson03/chamber-site-plan.html" title="site plan page link">Site Plan</a></li>
+                    <li><a href="chamber/index.html" title="chamber page link">Chamber</a></li>
+                    <li><a href="https://www.byui.edu/" title="BYU-Idaho page link" target="_blank">BYU-Idaho</a></li>
+                    <li>
+                        <a
+                            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng&id=p12#p12"
+                            title="scripture link"
+                            target="_blank"
+                            >Scripture</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-title">
+                    <h2>Idaho Falls Temple</h2>
+                </div>
+                <picture>
+                    <source media="(max-width: 400px )" srcset="images/IF-temple-640x400.jpeg" />
+                    <source media="(max-width: 960px )" srcset="images/IF-temple-960x600.jpeg" />
+                    <img src="images/IF-temple-1280x800.jpeg" alt="Idaho Falls LDS Temple" width="1280" height="800" />
+                </picture>
+            </section>
+            <h2 class="attribute">WDD 230: Web Frontend Development</h2>
+            <div class="card-grid">
+                <section class="card">
+                    <div class="card-header">
+                        <h3>Learning Activities</h3>
+                    </div>
+                    <div class="card-content">
+                        <ul class="la-card"></ul>
+                    </div>
+                </section>
+                <section class="card">
+                    <div class="card-header">
+                        <h3>Information</h3>
+                    </div>
+                    <div class="card-content">
+                        <div>Number of Visits: <span class="visits"></span></div>
+                        <article id="weather">
+                            <h4>Weather Right Now</h4>
+                            <p id="location"></p>
+
+                            <figure>
+                                <div class="temp-area"></div>
+                                <figcaption id="weather-description"></figcaption>
+                            </figure>
+
+                            <div class="alt-weather">
+                                <div class="weather-box">Feels Like:<span id="feels-like"></span></div>
+                                <div class="weather-box">Wind:<span id="wind-speed"></span></div>
+                                <div class="weather-box">Humidity:<span id="humidity"></span></div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/search/google+maps+idaho+falls+idaho+lds+temple/@42.8867584,-112.443392,14z/data=!3m1!4b1?entry=ttu"
+                        width="600"
+                        height="450"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        name="Google Maps"
+                    ></iframe>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-info">
+                <div class="copyright">
+                    <p>WDD 230 <span id="cYear"></span> | Leah Chamberlain | Idaho, USA</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/chamleah/" target="_blank">
+                        <img src="images/linkedin-logo.webp" alt="instagram icon" loading="lazy" />
+                    </a>
+                    <a href="https://x.com/chamleah01" target="_blank">
+                        <img src="images/twitter-x-logo.webp" alt="twitter icon" loading="lazy" />
+                    </a>
+                    <a href="https://www.facebook.com/leah.chamberlain.54/" target="_blank">
+                        <img src="images/facebook-logo.webp" alt="face book icon" loading="lazy" />
+                    </a>
+                </div>
+            </div>
+
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts/links.js"></script>
+        <script src="scripts/weather.js"></script>
+    </body>
+</html>
